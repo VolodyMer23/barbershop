@@ -1,198 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Barbershop</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <a href="#" class="logo">
-            <img src="./images/Logo.svg" width="69" alt="Barbershop logotype">
-        </a>
-        <nav>
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services and prices</a></li>
-                <li><a href="#">Barbers</a></li>
-                <li><a href="#">Contacts</a></li>
-            </ul>
-        </nav>
-        <a href="tel:+380441111111">+38 044 111 11 11</a>
-        <button type="button">Online-booking</button>
+      <a href="#" class="logo">
+        <img src="./images/Logo.svg" width="69" alt="Barbershop logotype" />
+      </a>
+      <nav class="nav">
+        <ul class="header-nav list">
+          <li><a class="header-nav-links link" href="#">About</a></li>
+          <li>
+            <a class="header-nav-links link" href="#">Services and prices</a>
+          </li>
+          <li><a class="header-nav-links link" href="#">Barbers</a></li>
+          <li><a class="header-nav-links link" href="#">Contacts</a></li>
+        </ul>
+      </nav>
+      <a class="header-contact link" href="tel:+380441111111"
+        >+38 044 111 11 11</a
+      >
+      <button class="header-btn btn" type="button">Online-booking</button>
     </header>
     <main>
-        <section>
-            <h1>BarberShop</h1>
-            <p>We are experts in trendy men’s haircuts.
-            We work quickly, carefully and with style.</p>
-        </section>
-        <section class="bestbarber">
-            <h2></h2>
+      <section class="hero">
+        <ul class="hero-list">
+          <li class="hero-item">
+            <a
+              href="https://www.instagram.com/"
+              class="hero-link link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Instagram</a>
+          </li>
+          <li class="hero-item">
+            <a
+              href="https://www.Youtube.com/"
+              class="hero-link link"
+              target="_blank"
+              rel="noopener noreferrer"
+            >Youtube</a>
+          </li>
+        </ul>
+
+        <span>A hair salon for men in Kyiv</span>
+        <h1 class="hero-title title">BarberShop</h1>
+        <p>
+          We are experts in trendy men’s haircuts. We work quickly, carefully
+          and with style.
+        </p>
+      </section>
+      <section class="bestbarber">
+        <h2></h2>
+        <ul class="list">
+          <li><img src="./images/beard.jpg" alt="Barber cut beard" /></li>
+          <li><img src="./images/hair.jpg" alt="Barber cut hair" /></li>
+        </ul>
+
+        <div>
+          <span>about</span>
+          <h2>Best Barbershop in your city</h2>
+          <p>
+            If you want to add more confidence to your image, you should
+            definitely visit us.
+          </p>
+          <p>
+            We are a team that never stops at what has been achieved and are
+            thirsty for changes. And when you fall into the hands of our master,
+            you will never be the same again. We are a team that is always "on
+            the same wave" with clients. Therefore, we are always ready to
+            improve everyone who comes to us!
+          </p>
+          <button type="button">Online-booking</button>
+        </div>
+      </section>
+      <section class="price">
+        <span>Spend your time with the best masters</span>
+        <h2>Services and prices</h2>
+        <ul class="list">
+          <li>
+            <p>Men’s haircut<span>from 300 uah.</span></p>
+          </li>
+          <li>
+            <p>Beard trim<span>from 300 uah.</span></p>
+          </li>
+          <li>
+            <p>Mustache trim<span>from 200 uah.</span></p>
+          </li>
+          <li>
+            <p>Straight razor shave<span>from 200 uah.</span></p>
+          </li>
+        </ul>
+        <ul class="list">
+          <li>
+            <p>MTrainee’s haircut<span>from 50 uah.</span></p>
+          </li>
+          <li>
+            <p>Haircut under the nozzle<span>from 200 uah.</span></p>
+          </li>
+          <li>
+            <p>Children’s haircut (0-12 y.o.)<span>from 300 uah.</span></p>
+          </li>
+          <li>
+            <p>Camouflage of gray hair<span>from 200 uah.</span></p>
+          </li>
+        </ul>
+        <button class="btn" type="button">online-booking</button>
+      </section>
+      <section class="rewards">
+        <ul class="list">
+          <li>
+            <span>600<sup>+</sup></span>
+            <p>Satisfied customers per day</p>
+          </li>
+          <li>
+            <span>50<sup>+</sup></span>
+            <p>Awards for excellent service</p>
+          </li>
+          <li>
+            <span>20<sup>+</sup></span>
+            <p>Kyiv’s best barbers</p>
+          </li>
+          <li>
+            <span>100<sup>+</sup></span>
+            <p>Gifts for regular customers</p>
+          </li>
+        </ul>
+        <div>
+          <span>Old traditional school</span>
+          <h2>¿Why people come to us?</h2>
+          <p>
+            Only good things are said about us. But it's better to see and feel
+            1 time than read 10 times.
+          </p>
+        </div>
+      </section>
+      <section class="team">
+        <span>For true enjoyers of the atmosphere</span>
+        <h2>Our barbers</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/1_john.jpg"
+              width="370"
+              height="346"
+              alt="Photo of barber John"
+            />
+            <h3>John Smith</h3>
+            <p>Extreme Barber</p>
             <ul class="list">
-                <li><img src="./images/beard.jpg" alt="Barber cut beard"></li>
-                <li><img src="./images/hair.jpg" alt="Barber cut hair"></li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/insta.svg"
+                    width="44"
+                    height="44"
+                    alt="Instagram link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/twitter.svg"
+                    width="44"
+                    height="44"
+                    alt="Twitter link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/facebook.svg"
+                    width="44"
+                    height="44"
+                    alt="Facebook link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/linkedin.svg"
+                    width="44"
+                    height="44"
+                    alt="LinkedIn link"
+                /></a>
+              </li>
             </ul>
-            
-            <div>
-                <span>about</span>
-                <h2>Best Barbershop in your city</h2>
-                <p>If you want to add more confidence to your image, you should definitely visit us.</p>
-                <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands
-                of our master, you will never be the same again. We are a team that is always "on the same wave" with clients.
-                Therefore, we are always ready to improve everyone who comes to us!
-                </p>
-                <button type="button">Online-booking</button>
-            </div>
-        </section>
-        <section>
-            <span>Spend your time with the best masters</span>
-            <h2>Services and prices</h2>
+          </li>
+          <li>
+            <img
+              src="./images/2_michel.jpg"
+              width="370"
+              height="346"
+              alt="Photo of barber John"
+            />
+            <h3>Michele Doe</h3>
+            <p>Extreme Barber</p>
             <ul class="list">
-                <li><p>Men’s haircut<span>from 300 uah.</span></p></li>
-                <li><p>Beard trim<span>from 300 uah.</span></p></li>
-                <li><p>Mustache trim<span>from 200 uah.</span></p></li>
-                <li><p>Straight razor shave<span>from 200 uah.</span></p></li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/insta.svg"
+                    width="44"
+                    height="44"
+                    alt="Instagram link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/twitter.svg"
+                    width="44"
+                    height="44"
+                    alt="Twitter link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/facebook.svg"
+                    width="44"
+                    height="44"
+                    alt="Facebook link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/linkedin.svg"
+                    width="44"
+                    height="44"
+                    alt="LinkedIn link"
+                /></a>
+              </li>
             </ul>
+          </li>
+          <li>
+            <img
+              src="./images/3_alan.jpg"
+              width="370"
+              height="346"
+              alt="Photo of barber John"
+            />
+            <h3>Alan Black</h3>
+            <p>Extreme Barber</p>
             <ul class="list">
-                <li>
-                    <p>MTrainee’s haircut<span>from 50 uah.</span></p>
-                </li>
-                <li>
-                    <p>Haircut under the nozzle<span>from 200 uah.</span></p>
-                </li>
-                <li>
-                    <p>Children’s haircut (0-12 y.o.)<span>from 300 uah.</span></p>
-                </li>
-                <li>
-                    <p>Camouflage of gray hair<span>from 200 uah.</span></p>
-                </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/insta.svg"
+                    width="44"
+                    height="44"
+                    alt="Instagram link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/twitter.svg"
+                    width="44"
+                    height="44"
+                    alt="Twitter link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/facebook.svg"
+                    width="44"
+                    height="44"
+                    alt="Facebook link"
+                /></a>
+              </li>
+              <li>
+                <a class="social link" href="#"
+                  ><img
+                    src="./images/linkedin.svg"
+                    width="44"
+                    height="44"
+                    alt="LinkedIn link"
+                /></a>
+              </li>
             </ul>
-            <button type="button">online-booking</button>
-        </section>
-        <section>
-            <ul class="list">
-                <li>
-                    <span>600<sup>+</sup></span>
-                    <p>Satisfied customers per day</p>
-                </li>
-                <li><span>50<sup>+</sup></span>
-                <p>Awards for excellent service</p></li>
-                <li><span>20<sup>+</sup></span>
-                <p>Kyiv’s best barbers</p></li>
-                <li><span>100<sup>+</sup></span>
-                <p>Gifts for regular customers</p></li>
-            </ul>
-            <div>
-                <span>Old traditional school</span>
-                <h2>¿Why people come to us?</h2>
-                <p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times.</p>
-            </div>
-        </section>
-        <section>
-            <span>For true enjoyers of the atmosphere</span>
-            <h2>Our barbers</h2>
-            <ul class="list">
-                <li>
-                    <img src="./images/1_john.jpg" width="370" height="346" alt="Photo of barber John">
-                    <h3>John Smith</h3>
-                    <p>Extreme Barber</p>
-                    <ul class="list">
-                        <li>
-                            <a class="social link" href="#"><img src="./images/insta.svg" width="44" height="44" alt="Instagram link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/twitter.svg" width="44" height="44" alt="Twitter link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/facebook.svg" width="44" height="44" alt="Facebook link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/linkedin.svg" width="44" height="44" alt="LinkedIn link"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/2_michel.jpg" width="370" height="346" alt="Photo of barber John">
-                    <h3>Michele Doe</h3>
-                    <p>Extreme Barber</p>
-                    <ul class="list">
-                        <li>
-                            <a class="social link" href="#"><img src="./images/insta.svg" width="44" height="44" alt="Instagram link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/twitter.svg" width="44" height="44" alt="Twitter link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/facebook.svg" width="44" height="44" alt="Facebook link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/linkedin.svg" width="44" height="44" alt="LinkedIn link"></a>
-                        </li>
-                    </ul>
-                </li>
-                <li>
-                    <img src="./images/3_alan.jpg" width="370" height="346" alt="Photo of barber John">
-                    <h3>Alan Black</h3>
-                    <p>Extreme Barber</p>
-                    <ul class="list">
-                        <li>
-                            <a class="social link" href="#"><img src="./images/insta.svg" width="44" height="44" alt="Instagram link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/twitter.svg" width="44" height="44" alt="Twitter link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/facebook.svg" width="44" height="44" alt="Facebook link"></a>
-                        </li>
-                        <li>
-                            <a class="social link" href="#"><img src="./images/linkedin.svg" width="44" height="44" alt="LinkedIn link"></a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <span>In Latin, "barba" means "beard"</span>
-            <h2 hidden>Portfolio</h2>
-            <ul class="list">
-                <li>
-                    <img src="./images/haircut.jpg" alt="the barber is doing a haircut">
-                </li>
-                <li><img src="./images/barber.jpg" alt="the barber cuts the beard"></li>
-                <li><img src="./images/twizzers.jpg" alt="the barber covers client face with a wet towel"></li>
-                <li><img src="./images/toilet.jpg" alt="barber removes hair with tweezers"></li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contacts</h2>
-            <address>
-                <ul>
-                    <li>
-                        <a href="https://goo.gl/maps/v85MxP7KqtzqSQbT9" target="_blank" rel="noopener noreferrer">st. Vasilkovaya, 7A Kiev, 08132</a>
-                    </li>
-                    <li><a href="tel:+380441111111">+38 044 111 11 11</a></li>
-                    <li><a href="mailto:barbershop@email.com">barbershop@email.com</a></li>
-                </ul>
-                <span>
-                    Working hours
-                </span>
-                <p>Every day from 9:00 to 22:00</p>
-            </address>
-        </section>
+          </li>
+        </ul>
+      </section>
+      <section class="gallery">
+        <span>In Latin, "barba" means "beard"</span>
+        <h2 hidden>Portfolio</h2>
+        <ul class="list">
+          <li>
+            <img
+              src="./images/haircut.jpg"
+              alt="the barber is doing a haircut"
+            />
+          </li>
+          <li>
+            <img src="./images/barber.jpg" alt="the barber cuts the beard" />
+          </li>
+          <li>
+            <img
+              src="./images/twizzers.jpg"
+              alt="the barber covers client face with a wet towel"
+            />
+          </li>
+          <li>
+            <img
+              src="./images/toilet.jpg"
+              alt="barber removes hair with tweezers"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="contacts">
+        <h2>Contacts</h2>
+        <address class="adress">
+          <ul>
+            <li>
+              <a
+                href="https://goo.gl/maps/v85MxP7KqtzqSQbT9"
+                class="link"
+                target="_blank"
+                rel="noopener noreferrer"
+                >st. Vasilkovaya, 7A Kiev, 08132</a
+              >
+            </li>
+            <li>
+              <a href="tel:+380441111111" class="link">+38 044 111 11 11</a>
+            </li>
+            <li>
+              <a href="mailto:barbershop@email.com" class="link"
+                >barbershop@email.com</a
+              >
+            </li>
+          </ul>
+          <span> Working hours </span>
+          <p>Every day from 9:00 to 22:00</p>
+        </address>
+      </section>
     </main>
     <footer>
-        <p>&#169;Copyright 2020</p>
-        <ul class="list">
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">Instagram</a>
-            </li>
-            <li>
-                <a href="" target="_blank" rel="noopener noreferrer">Youtube</a>
-            </li>
-        </ul>
+      <p>&#169;Copyright 2020</p>
+      <ul class="list">
+        <li>
+          <a href="" class="link" target="_blank" rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <a href="" class="link" target="_blank" rel="noopener noreferrer"
+            >Youtube</a
+          >
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
